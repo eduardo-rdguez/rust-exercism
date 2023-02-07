@@ -22,3 +22,7 @@ pub fn warn(message: &str) -> String {
 pub fn error(message: &str) -> String {
     log(LogLevel::Error, message)
 }
+
+pub fn debug(message: &str) -> String {
+    log(LogLevel::Debug, message)
+}

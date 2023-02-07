@@ -1,1 +1,1 @@
-pub mod semi_estructured_logs;
+pub mod semi_structured_logs;
